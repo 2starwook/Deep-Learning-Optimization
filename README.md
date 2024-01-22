@@ -36,7 +36,7 @@
 | Date          | Task          |
 | ------------- | ------------- |
 | Week1 (1/15)  | Look for proper dataset for medical image segmentation |
-| Week2 (1/22)  | Implement Deep Learning model for the chosen dataset |
+| Week2 (1/22)  | Implement Deep Learning model for the chosen dataset and learn its syntax |
 | Week3 (1/29)  | Implement SGD optimizers |
 | Week4 (2/5)   | Implement AdaGrad optimizers |
 | Week5 (2/12)  | Implement ADAM |
