@@ -37,10 +37,16 @@
 | ------------- | ------------- |
 | Week1 (1/15)  | Look for proper dataset for medical image segmentation |
 | Week2 (1/22)  | Implement Deep Learning model for the chosen dataset and learn its syntax |
-| Week3 (1/29)  | Implement SGD optimizers |
-| Week4 (2/5)   | Implement AdaGrad optimizers |
-| Week5 (2/12)  | Implement ADAM |
+| Week3 (1/29)  | Continue implementing Deep Learning model for the chosen dataset |
+| Week4 (2/5)  | Modularize jupyter notebook / Setup environment for server |
+| Week5 (2/12)  | Implement an evaluation method / Test model with a larger data |
+| Week6 (2/19)  | Implement custom model and evaluate it |
+| Week7 (2/26)  | Implement SGD optimizers |
+| Week8 (3/4)   | Implement AdaGrad optimizers |
+| Week9 (3/11)  | Implement ADAM |
 
+## TODO List
+- Modularize the notebook
 
 ## Reference
 ### Research Paper
