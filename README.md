@@ -45,8 +45,12 @@
 | Week8 (3/4)   | Implement AdaGrad optimizers |
 | Week9 (3/11)  | Implement ADAM |
 
+## Question
+- For KU Server, does environment get reset everytime?
+- For KU Server, is there a way for me to run a script while disconnected?
+
 ## TODO List
-- Modularize the notebook
+- Ensure setup environment for KU server (Conda)
 
 ## Reference
 ### Research Paper
