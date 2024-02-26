@@ -39,18 +39,18 @@
 | Week2 (1/22)  | Implement Deep Learning model for the chosen dataset and learn its syntax |
 | Week3 (1/29)  | Continue implementing Deep Learning model for the chosen dataset |
 | Week4 (2/5)  | Modularize jupyter notebook / Setup environment for server |
-| Week5 (2/12)  | Implement an evaluation method / Test model with a larger data |
-| Week6 (2/19)  | Implement custom model and evaluate it |
-| Week7 (2/26)  | Implement SGD optimizers |
-| Week8 (3/4)   | Implement AdaGrad optimizers |
-| Week9 (3/11)  | Implement ADAM |
+| Week5 (2/12)  | Modularize a monolithic code base |
+| Week6 (2/19)  | Implement evaluation methods |
+| Week7 (2/26)  | Test model with a larger data in the server |
+| Week8 (3/4)   | Implement SGD optimizer |
+| Week9 (3/11)  | Spring break |
+| Week10 (3/18)  | Implement AdaGrad optimizer |
+| Week11 (3/25)  | Implement ADAM optimizer |
 
 ## Question
-- For KU Server, does environment get reset everytime?
-- For KU Server, is there a way for me to run a script while disconnected?
 
 ## TODO List
-- Ensure setup environment for KU server (Conda)
+- Ensure setup environment for KU server
 
 ## Reference
 ### Research Paper
