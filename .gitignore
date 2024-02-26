@@ -2,3 +2,4 @@
 .venv/*
 Model/*
 Data/MSD/*
+settings.json
