@@ -1,4 +1,5 @@
 from numpy.typing import NDArray
+import matplotlib.pyplot as plt
 
 
 class Dataset:
@@ -31,3 +32,16 @@ class Dataset:
         return self.data.reshape((
             self.data.shape[0], self.data.shape[1], self.data.shape[2]
         ))
+
+    def display_dataset(self, slice_index: int = 30):
+        fig, ax = plt.subplots(nrows=1, ncols=self.number_of_data)
+
+        start_index = 0
+        for i in range(self.number_of_data):
+            img = self.data[start_index:start_index+self.lengths[i]].T
+            ax[i].imshow(img[:, :, slice_index])
+            ax[i].title.set_text(f"data{i+1}")
+            ax[i].grid(False)
+            ax[i].axis('off')
+            start_index += self.lengths[i]
+        plt.show()
