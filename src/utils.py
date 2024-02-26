@@ -1,5 +1,7 @@
 import os
 from os.path import sep
+
+from collections import Counter
 import tarfile
 import fnmatch
 
@@ -17,3 +19,7 @@ def extract_file(cls, dir: str, ext: str = "*.tar"):
         task_path = f"{dir}{sep}{file}"
         with tarfile.open(task_path, 'r') as tar:
             tar.extractall(f"{dir}{sep}")
+
+def get_max_occurence_value(x: list):
+    inv_map = {v: k for k, v in Counter(x).items()}
+    return inv_map[max(inv_map.keys())]
