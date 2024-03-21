@@ -42,7 +42,7 @@
 | Week5 (2/12)  | Modularize a monolithic code base |
 | Week6 (2/19)  | Implement evaluation methods |
 | Week7 (2/26)  | Test model with a larger data in the server & Setup environment for server |
-| Week8 (3/4)   | Test model with a larger data in the server & Setup environment for server |
+| Week8 (3/4)   | Midterm |
 | Week9 (3/11)  | Spring break |
 | Week9 (3/18)  | Implement SGD optimizer |
 | Week10 (3/25)  | Implement AdaGrad optimizer |
