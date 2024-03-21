@@ -77,3 +77,5 @@
 - [PyTorch: Custom Optimizer in PyTorch](https://discuss.pytorch.org/t/custom-optimizer-in-pytorch/22397)
 - [PyTorch: OPTIMIZING MODEL PARAMETERS](https://pytorch.org/tutorials/beginner/basics/optimization_tutorial.html)
 - [PyTorch: TORCH.OPTIM](https://pytorch.org/docs/stable/optim.html)
+- [Github: Custom Keras Optimizer](https://github.com/ageron/handson-ml2/blob/master/12_custom_models_and_training_with_tensorflow.ipynb)
+- [TensorFlow: Custom optimizers](https://www.tensorflow.org/guide/core/optimizers_core)
