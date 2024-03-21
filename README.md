@@ -44,9 +44,10 @@
 | Week7 (2/26)  | Test model with a larger data in the server & Setup environment for server |
 | Week8 (3/4)   | Midterm |
 | Week9 (3/11)  | Spring break |
-| Week9 (3/18)  | Implement SGD optimizer |
-| Week10 (3/25)  | Implement AdaGrad optimizer |
-| Week11 (4/1)  | Implement ADAM optimizer |
+| Week9 (3/18)  | Implement GD optimizer |
+| Week9 (3/25)  | Implement SGD optimizer |
+| Week10 (4/1)  | Implement AdaGrad optimizer |
+| Week11 (4/8)  | Implement ADAM optimizer |
 
 ## Question
 
