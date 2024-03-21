@@ -41,11 +41,12 @@
 | Week4 (2/5)  | Modularize jupyter notebook / Setup environment for server |
 | Week5 (2/12)  | Modularize a monolithic code base |
 | Week6 (2/19)  | Implement evaluation methods |
-| Week7 (2/26)  | Test model with a larger data in the server |
-| Week8 (3/4)   | Implement SGD optimizer |
+| Week7 (2/26)  | Test model with a larger data in the server & Setup environment for server |
+| Week8 (3/4)   | Test model with a larger data in the server & Setup environment for server |
 | Week9 (3/11)  | Spring break |
-| Week10 (3/18)  | Implement AdaGrad optimizer |
-| Week11 (3/25)  | Implement ADAM optimizer |
+| Week9 (3/18)  | Implement SGD optimizer |
+| Week10 (3/25)  | Implement AdaGrad optimizer |
+| Week11 (4/1)  | Implement ADAM optimizer |
 
 ## Question
 
