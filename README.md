@@ -25,9 +25,8 @@
 ### Medical Image
 #### Heart
 - Small traning dataset with large variability
-#### Chromosome
+#### Nuclear
 - Large traning dataset
-- Main challenge is the separation of overlapping chromosomes
 
 ## Success Measure
 - Draw a comparison table for each optimizer with its evaluation metrics
@@ -80,3 +79,6 @@
 - [PyTorch: TORCH.OPTIM](https://pytorch.org/docs/stable/optim.html)
 - [Github: Custom Keras Optimizer](https://github.com/ageron/handson-ml2/blob/master/12_custom_models_and_training_with_tensorflow.ipynb)
 - [TensorFlow: Custom optimizers](https://www.tensorflow.org/guide/core/optimizers_core)
+#### Environment
+- [Apple: tensorflow](https://developer.apple.com/metal/tensorflow-plugin/)
+- [Conda: Managing environments](https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#creating-an-environment-with-commands)
