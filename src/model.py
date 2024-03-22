@@ -3,6 +3,8 @@ Model - Unet
 
 Implementation based on U-Net: Convolutional Networks for Biomedical
 Image Segmentation https://arxiv.org/pdf/1505.04597.pdf
+TODO: Update model with the following
+    https://www.tensorflow.org/tutorials/quickstart/advanced
 """
 
 import tensorflow as tf
