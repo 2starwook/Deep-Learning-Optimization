@@ -33,6 +33,11 @@ class Dataset:
             self.data.shape[0], self.data.shape[1], self.data.shape[2]
         ))
 
+    def get_reshaped_data_fit(self) -> NDArray:
+        return self.data.reshape((
+            self.data.shape[0], self.data.shape[1], self.data.shape[2], 1
+        ))
+
     def display_dataset(self, slice_index: int = 30):
         fig, ax = plt.subplots(nrows=1, ncols=self.number_of_data)
 
