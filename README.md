@@ -32,10 +32,7 @@
 - Draw a comparison table for each optimizer with its evaluation metrics
 
 ## How to setup environment
-1. `conda create -n <name> python=3.10` // Craete environment environment with Python3.10
-
-1. `conda activate <name>` // Activate environment
-
+`conda env create -f environment.yml` // Craete environment from environment file
 
 ## Timeline
 | Date          | Task          |
