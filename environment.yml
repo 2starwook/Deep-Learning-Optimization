@@ -1,6 +1,6 @@
 name: stats
 dependencies:
-  - python=3.12
+  - python=3.11
   - pip:
     - numpy==1.26.4
     - pandas==2.2.1
