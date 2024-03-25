@@ -54,7 +54,6 @@
 ## Question
 
 ## TODO List
-- Ensure setup environment for KU server
 
 ## Reference
 ### Research Paper
