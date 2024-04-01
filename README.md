@@ -47,9 +47,10 @@
 | Week8 (3/4)   | Midterm |
 | Week9 (3/11)  | Spring break |
 | Week9 (3/18)  | Implement GD optimizer |
-| Week9 (3/25)  | Implement SGD optimizer |
-| Week10 (4/1)  | Implement AdaGrad optimizer |
-| Week11 (4/8)  | Implement ADAM optimizer |
+| Week10 (3/25)  | Implement SGD optimizer |
+| Week11 (4/1)  | Implement SGD with Momentum optimizer |
+| Week12 (4/8)  | Implement AdaGrad optimizer |
+| Week13 (4/15)  | Implement ADAM optimizer |
 
 ## Question
 
