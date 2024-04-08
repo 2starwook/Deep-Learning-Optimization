@@ -68,6 +68,7 @@
 1. <a href="https://link.springer.com/article/10.1007/s10278-019-00227-x" id="ref-5">Deep Learning Techniques for Medical Image Segmentation: Achievements and Challenges</a>
 1. <a href="https://arxiv.org/pdf/2211.15596.pdf" id="ref-6">A survey of deep learning optimizers - first and second order methods</a>
 1. <a href="https://arxiv.org/pdf/1902.09063v1.pdf" id="ref-7">A large annotated medical image dataset for the development and evaluation of segmentation algorithms</a>
+1. <a href="https://arxiv.org/pdf/cs/0102001.pdf" id="ref-8">Benchmarking Optimization Software with Performance Profiles</a>
 
 
 ### Dataset
