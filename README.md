@@ -82,6 +82,7 @@
 - [Dataloader for semantic segmentation](https://discuss.pytorch.org/t/dataloader-for-semantic-segmentation/48290)
 #### Optimization
 - [Github: Stochastic variance reduced algorithms : Implementation of SVRG and SAGA optimization algorithms for deep learning](https://github.com/kilianFatras/variance_reduced_neural_networks)
+- [Github: Custom optimizers](https://github.com/toru34/tf_optimizers/blob/master/optimizers.py)
 - [PyTorch: Custom Optimizer in PyTorch](https://discuss.pytorch.org/t/custom-optimizer-in-pytorch/22397)
 - [PyTorch: OPTIMIZING MODEL PARAMETERS](https://pytorch.org/tutorials/beginner/basics/optimization_tutorial.html)
 - [PyTorch: TORCH.OPTIM](https://pytorch.org/docs/stable/optim.html)
