@@ -91,7 +91,7 @@
 - [Dataloader for semantic segmentation](https://discuss.pytorch.org/t/dataloader-for-semantic-segmentation/48290)
 
 #### Optimization
-- [Github: Custom optimizers](https://github.com/toru34/tf_optimizers/blob/master/optimizers.py)
+- [Github: Custom optimizers](https://github.com/toru34/tf_optimizers)
 - [PyTorch: OPTIMIZING MODEL PARAMETERS](https://pytorch.org/tutorials/beginner/basics/optimization_tutorial.html)
 - [PyTorch: TORCH.OPTIM](https://pytorch.org/docs/stable/optim.html)
 - [TensorFlow: Custom optimizers](https://www.tensorflow.org/guide/core/optimizers_core)
