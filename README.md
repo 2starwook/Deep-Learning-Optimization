@@ -32,6 +32,16 @@
 ## Success Measure
 - Draw a comparison table for each optimizer with its evaluation metrics
 
+## Results
+### Training Time
+![Time](static/train_time.png)
+### Training Accuracy
+![Time](static/train_accuracy.png)
+### Test Accuracy
+![Time](static/test_accuracy.png)
+### Loss
+![Time](static/loss.png)
+
 ## How to setup environment
 `conda env create -f environment.yml` // Craete environment from environment file
 
