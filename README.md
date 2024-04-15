@@ -25,11 +25,6 @@
     - F-meature based metrics
 - Cohen's Kappa (Kap)
 - Average Hausdorff Distance (AHD)
-### Medical Image
-#### Heart
-- Small traning dataset with large variability
-#### Nuclear
-- Large traning dataset
 
 ## Success Measure
 - Draw a comparison table for each optimizer with its evaluation metrics
