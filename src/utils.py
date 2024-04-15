@@ -28,6 +28,21 @@ def get_max_occurence_value(x: list):
     inv_map = {v: k for k, v in Counter(x).items()}
     return inv_map[max(inv_map.keys())]
 
+def smooth(data: list[float], weight: float = 0.9) -> list[float]:
+    """
+    data (List[float]): float data points
+    weight (float, optional): range from 0 to 1 (default: 0.9)
+    Ref. https://en.wikipedia.org/wiki/Moving_average#Exponential_moving_average
+    """
+    last = data[0]  # First value in the plot (first timestep)
+    smoothed = list()
+    for point in data:
+        smoothed_val = last * weight + (1 - weight) * point  # Calculate smoothed value
+        smoothed.append(smoothed_val)                        # Save it
+        last = smoothed_val                                  # Anchor the last smoothed value
+        
+    return smoothed
+
 def cross_entropy_loss(x, y):
     # Convert labels to int 64 for tf cross-entropy function.
     y = tf.cast(y, tf.int64)
