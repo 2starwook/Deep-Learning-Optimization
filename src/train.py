@@ -11,7 +11,7 @@ from src.loader import DatasetLoader
 
 PATH = './'
 pipeline = DatasetLoader("Task02_Heart")
-x_train, y_train, x_test = pipeline.get_x_train(), pipeline.get_y_train(), pipeline.get_x_test()
+x_train, y_train, x_test = pipeline.get_train_dataset(), pipeline.get_train_gt_dataset(), pipeline.get_test_dataset()
 
 class_wights = compute_class_weight(class_weight='balanced', classes=np.array([0, 1]), 
                                     y=y_train.flatten())
