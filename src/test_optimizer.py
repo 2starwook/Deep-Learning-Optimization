@@ -18,7 +18,7 @@ X_TEST_PATH = 'data/test/x_test.npy'
 Y_TEST_PATH = 'data/test/y_test.npy'
 
 
-def run_test(optimizer: Module):
+def run_test(optimizer: Module, print_progress: bool = False):
     x_train = load_np(X_TRAIN_PATH)
     y_train = load_np(Y_TRAIN_PATH)
     x_test = load_np(X_TEST_PATH)
@@ -52,5 +52,9 @@ def run_test(optimizer: Module):
         loss_data.append(loss)
         acc_data.append(acc)
         acc_test_data.append(acc_test)
+
+        if print_progress:
+            if step % 10 == 0:
+                print(f"[step {step}] accuracy: {acc} / loss: {loss}")
 
     return times, loss_data, acc_data, acc_test_data
