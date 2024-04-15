@@ -50,8 +50,10 @@
 | Week9 (3/18)  | Implement GD optimizer |
 | Week10 (3/25)  | Implement SGD optimizer |
 | Week11 (4/1)  | Implement SGD with Momentum optimizer |
-| Week12 (4/8)  | Implement AdaGrad optimizer |
-| Week13 (4/15)  | Implement ADAM optimizer |
+| Week12 (4/8)  | Implement adaptive optimizers (AdaGrad/ADAM) |
+| Week13 (4/15)  | Implement image segmentation model for larger data |
+| Week14 (4/22)  | Train the model on KU Cluster |
+| Week15 (4/29)  | Review the result |
 
 ## Question
 
