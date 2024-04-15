@@ -16,6 +16,6 @@ class GradientDescentMomentum(tf.Module):
 
     def apply_gradients(self, grads, vars):
         for grad, var in zip(grads, vars):
-            v = tf.Variable(np.zeros(var.get_shape(), dtype='float32'), name='v')
+            v = tf.Variable(np.zeros(var.get_shape(), dtype='float32'), name='v') # velocity
             v.assign(self.momentum*v - self.lr*grad)
-            var.assign(var + (self.momentum**2)*v - (1 + self.momentum)*self.lr*grad)
+            var.assign(var + v)
