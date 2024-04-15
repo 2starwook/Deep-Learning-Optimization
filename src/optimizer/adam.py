@@ -8,7 +8,9 @@ class Adam(tf.Module):
         lr (float, optional): learning rate (default 0.07)
         betas (List[float, float], optional): 
             coefficients used for computing running averages of gradient and its square
+            (default: (0.9), (0.999))
         eps (float, optional): small positive value to avoid divide by zero error
+            (default: 0.001)
         """
         self.lr = lr
         self.beta_1 = betas[0]
