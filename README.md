@@ -10,6 +10,7 @@
 ### Segmentation architectures
 #### [U-Net architecture](#ref-4)
 - Known for precise segmentation with smaller size of traning dataset
+
 ### [Optimizer](#ref-4)
 1. SGD
     - Optimizer with fixed LR/MR
