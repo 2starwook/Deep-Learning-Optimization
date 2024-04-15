@@ -13,11 +13,12 @@
 ### [Optimizer](#ref-4)
 1. SGD
     - Optimizer with fixed LR/MR
-2. AdaGrad
+1. AdaGrad
     - Optimizer with adaptive LR
     - `learning rate for sparse features parameters needs to be higher compare to the dense features parameter because the frequency of occurrence of sparse features is lower`
-3. ADAM
+1. ADAM
     - Optimizer with adaptive LR/MR
+
 ### [Evaluation](#ref-3)
 - Dice Similarity Coefficient (DSC)
     - F-meature based metrics
