@@ -56,10 +56,6 @@
 ## Question
 
 ## TODO List
-- Debug OUT_OF_MEMORY cluster issue
-    - https://docs.ycrc.yale.edu/clusters-at-yale/job-scheduling/resource-usage/
-    - https://docs.crc.ku.edu/how-to/measuring-cpu-memory/
-    - https://slurm.schedmd.com/sstat.html
 
 ## Reference
 ### Research Paper
