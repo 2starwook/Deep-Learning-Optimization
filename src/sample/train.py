@@ -6,7 +6,7 @@ from keras.layers import Input
 from keras.optimizers import legacy
 from keras.callbacks import ModelCheckpoint
 
-from src.loader import DatasetLoader
+from sample.loader import DatasetLoader
 
 
 PATH = './'

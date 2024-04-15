@@ -12,7 +12,7 @@ from keras.layers import *
 from keras.optimizers import *
 
 from src.utils import get_max_occurence_value
-from src.dataset import Dataset
+from sample.dataset import Dataset
 
 
 class DatasetLoader:
