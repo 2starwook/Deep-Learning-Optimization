@@ -59,7 +59,7 @@
 | Week11 (4/1)  | Implement SGD with Momentum optimizer |
 | Week12 (4/8)  | Implement adaptive optimizers (AdaGrad/ADAM) |
 | Week13 (4/15)  | Implement image segmentation model for larger data |
-| Week14 (4/22)  | Train the model on KU Cluster |
+| Week14 (4/22)  | Implement stopping condition / Adamax optimizer |
 | Week15 (4/29)  | Review the result |
 
 ## Question
