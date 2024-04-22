@@ -77,12 +77,10 @@
 
 ### Dataset
 - [TensorFlow: MNIST Dataset](https://www.tensorflow.org/datasets/catalog/mnist)
-- [MoNuSeg Data](https://monuseg.grand-challenge.org/Data/)
 
 
 ### Code
 #### Image Segmentation
-- [MedicalSegmentationDecathlon](https://github.com/Soft953/MedicalSegmentationDecathlon)
 - [Dataloader for semantic segmentation](https://discuss.pytorch.org/t/dataloader-for-semantic-segmentation/48290)
 
 #### Optimization
