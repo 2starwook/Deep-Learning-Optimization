@@ -19,6 +19,8 @@
     - `learning rate for sparse features parameters needs to be higher compare to the dense features parameter because the frequency of occurrence of sparse features is lower`
 1. ADAM
     - Optimizer with adaptive LR/MR
+1. Adamax
+    - variant of Adam based on infinity norm
 
 ### [Evaluation](#ref-3)
 - Dice Similarity Coefficient (DSC)
