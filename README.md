@@ -30,8 +30,6 @@
 - Draw a comparison table for each optimizer with its evaluation metrics
 
 ## Results
-### Training Time
-![Time](static/train_time.png)
 ### Training Accuracy
 ![Time](static/train_accuracy.png)
 ### Test Accuracy
