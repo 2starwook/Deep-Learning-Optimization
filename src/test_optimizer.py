@@ -58,5 +58,5 @@ def run_test(optimizer: Module, print_progress: bool = False):
         if print_progress:
             if step % 10 == 0:
                 print(f"[step {step}] accuracy: {acc} / loss: {loss}")
-
-    return times, loss_data, acc_data, acc_test_data
+    avg_time = sum(times) / len(times)
+    return avg_time, loss_data, acc_data, acc_test_data
