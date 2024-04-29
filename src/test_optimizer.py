@@ -19,6 +19,8 @@ Y_TEST_PATH = 'data/test/y_test.npy'
 
 
 def run_test(optimizer: Module, print_progress: bool = False):
+    if print_progress:
+        print(optimizer.title)
     x_train = load_np(X_TRAIN_PATH)
     y_train = load_np(Y_TRAIN_PATH)
     x_test = load_np(X_TEST_PATH)
