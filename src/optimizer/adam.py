@@ -3,14 +3,14 @@ import numpy as np
 
 
 class Adam(tf.Module):
-    def __init__(self, lr=0.07, betas=(0.9, 0.999), eps=0.01):
+    def __init__(self, lr=0.001, betas=(0.9, 0.999), eps=1e-8):
         """
-        lr (float, optional): learning rate (default 0.07)
+        lr (float, optional): learning rate (default 0.001)
         betas (List[float, float], optional): 
             coefficients used for computing running averages of gradient and its square
             (default: (0.9), (0.999))
         eps (float, optional): small positive value to avoid divide by zero error
-            (default: 0.001)
+            (default: 1e-8)
         """
         self.lr = lr
         self.beta_1 = betas[0]
