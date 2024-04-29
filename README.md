@@ -1,13 +1,13 @@
-# image_segmentation_optimization
+# Deep Learning Optimization Methods
+
 
 ## Goal
-- Gain the ability to select the best optimizer for deep learning-based medical image segmantation
+- Gain the ability to implement various optimizers
 - Understand what the optimization is in terms of deep learning
-### Stretch Goal
-- Implement more accurate and faster optimizer
+
 
 ## Background
-### Segmentation architectures
+### Deep learning architecture
 #### [U-Net architecture](#ref-4)
 - Known for precise segmentation with smaller size of traning dataset
 
@@ -22,14 +22,10 @@
 1. Adamax
     - variant of Adam based on infinity norm
 
-### [Evaluation](#ref-3)
-- Dice Similarity Coefficient (DSC)
-    - F-meature based metrics
-- Cohen's Kappa (Kap)
-- Average Hausdorff Distance (AHD)
 
 ## Success Measure
-- Draw a comparison table for each optimizer with its evaluation metrics
+- Plot comparison graphs for each optimizer with its evaluation metrics
+
 
 ## Results
 ### Training Accuracy
@@ -39,8 +35,6 @@
 ### Loss
 ![Time](static/loss.png)
 
-## How to setup environment
-`conda env create -f environment.yml` // Craete environment from environment file
 
 ## Timeline
 | Date          | Task          |
@@ -62,9 +56,9 @@
 | Week14 (4/22)  | Implement stopping condition / Adamax optimizer |
 | Week15 (4/29)  | Review the result |
 
-## Question
 
-## TODO List
+## How to setup environment
+`conda env create -f environment.yml` // Craete environment from environment file
 
 
 ## Reference
@@ -74,21 +68,17 @@
 1. <a href="https://arxiv.org/pdf/2211.15596.pdf" id="ref-6">A survey of deep learning optimizers - first and second order methods</a>
 1. <a href="https://arxiv.org/pdf/cs/0102001.pdf" id="ref-8">Benchmarking Optimization Software with Performance Profiles</a>
 
-
 ### Dataset
 - [TensorFlow: MNIST Dataset](https://www.tensorflow.org/datasets/catalog/mnist)
-
 
 ### Code
 #### Image Segmentation
 - [Dataloader for semantic segmentation](https://discuss.pytorch.org/t/dataloader-for-semantic-segmentation/48290)
-
 #### Optimization
 - [Github: Custom optimizers](https://github.com/toru34/tf_optimizers)
 - [PyTorch: OPTIMIZING MODEL PARAMETERS](https://pytorch.org/tutorials/beginner/basics/optimization_tutorial.html)
 - [PyTorch: TORCH.OPTIM](https://pytorch.org/docs/stable/optim.html)
 - [TensorFlow: Custom optimizers](https://www.tensorflow.org/guide/core/optimizers_core)
-
 #### Environment
 - [Apple: tensorflow](https://developer.apple.com/metal/tensorflow-plugin/)
 - [Conda: Managing environments](https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#creating-an-environment-with-commands)
